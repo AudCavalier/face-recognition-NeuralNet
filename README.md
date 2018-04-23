@@ -1,9 +1,9 @@
-#facerecognition-NeuralNet
+# facerecognition-NeuralNet
 
 This is a project i'm making for the school subject "Introduction to 
 Scientific Programming".
 
-###Overview
+### Overview
 
 The project is just a Neural Net, which is done in Python using 
 Jupyter Notebook which aims to recognice faces of 2 different persons 
@@ -15,7 +15,7 @@ Then it's tested by passing any picture of these persons and getting an
 output from the net (which is the Name, a prediction)
 
 
-###Method
+### Method
 
 A Neural Net with 3 hidden layers is used, getting the input neurons 
 from the pictures (at first each pixel from the picture, which isn't 
@@ -34,6 +34,6 @@ The Neural Net is done in a class, so one can just use create an
 instance of the class (a Neural Net Object) and use its methods to train 
 or test.
 
-###Comments
+### Comments
 
 The comments are in spanish because i need my grade for school :P
