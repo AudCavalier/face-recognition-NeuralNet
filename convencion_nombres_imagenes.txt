@@ -1,0 +1,11 @@
+Explicacion rapida de los nombres de las imagenes:
+
+Cada imagen de entrenamiento y prueba es un archivo .png de 30x30 pixeles, la convencion que estoy utilizando para los nombres es la siguiente:
+3 numeros para el nombre del archivo, el primer numero es un 0 o un 1, donde 0 o 1 se elige de acuerdo a la modelo de la imagen:
+0 - Rui Kiriyama
+1 - Takada Riho
+Los 2 numeros siguientes son simplemente numeros para identificar las imagenes por separado, independientemente de eso no tienen otra razon de ser, pero si de usar numeros
+
+Para poder automatizar en python y simplemente ingresar todas las imagenes a un arreglo de imagenes, utilizaremos primero un arreglo de numeros enteros (del 1 a n)
+posteriormente CONCATENAMOS un 1 o un 0 como prefijo a todos los numeros del arreglo, los convertimos en cadena, y pasamos a la funcion que escribi para abrir imagenes,
+esta regresa un objeto imagen de matplotlib, por lo que en un iterador lo podemos ir almacenando en un arreglo por cada imagen del arreglo de enteros que definimos primero
